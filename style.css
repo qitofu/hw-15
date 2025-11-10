@@ -46,7 +46,15 @@ h2 {
 @media only screen and (max-width: 480px) {
   html {
     font-size: 16px;
-    color: #000000;
-    background-color: #dddddd;
+    color: #dddddd;
+    background-color: #000000;
     text-align: center;
+  }
+  body {
+    width: 75vw;
+    min-width: 200px;
+  }
+  text {
+  column-count: 1;
+  }
 }
